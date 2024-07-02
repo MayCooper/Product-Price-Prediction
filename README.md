@@ -418,27 +418,25 @@ The final model will be deployed to a web app or API for end-users to use.
     <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/0c3c2002-0822-4dbb-883d-1add2634a671" alt="Code Implementation 5">
     <h3>Hyperparameter Tuning</h3>
     <p>Hyperparameter tuning was performed for the best-performing models, Random Forest and XGBoost, to further optimize their performance.</p>
-    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/df915694-9811-44ae-ab52-388ef4fbd088" alt="Code Implementation 6">
-    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/4b56754d-5ec0-4bb9-9696-86df621cdbaf" alt="Code">
-
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/df915694-9811-44ae-ab52-388ef4fbd088" alt="Code Implementation 6"> <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/4b56754d-5ec0-4bb9-9696-86df621cdbaf" alt="Code">
     <h3>Results</h3>
     <p>The Random Forest Regressor was identified as the best model with high accuracy, and its performance metrics were recorded.</p>
-    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/ed6f6cf6-9545-42f1-bee8-7f5ac52347ef" alt="Code Implementation 7">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/ceb68494-4164-43a0-ad23-f620e07caf25" alt="Code Implementation 7"> <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/52338cd3-3770-4f32-8a39-491feb91198a" alt="Code Implementation 7">
     <p>Through this comprehensive approach, a robust machine learning model was developed to accurately predict used car prices, enhancing market transparency and consumer trust.</p>
     <h2>Validation</h2>
     <p>Three methods were used to assess the accuracy of the model:</p>
     <h3>1. R2 Score:</h3>
     <p>The built-in score function for the Random Forest Regressor was used to evaluate the performance of the test set data given to the trained model. According to the scikit-learn API documentation, the score method calculates the R2 value, which is the coefficient of determination. For the Random Forest model, the R2 score was calculated as 0.9609, indicating that the model could explain approximately 96.09% of the variance in the car prices. This score was consistently calculated to be around 0.96 each time the model was trained and tested. The XGBoost model achieved an even higher R2 score of 0.9975, indicating excellent predictive performance.</p>
-    <img src="r2_score.png" alt="R2 Score">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/61e60402-c5ff-4ee6-830d-728a3ebcec43" alt="R2 Score">
     <h3>2. Mean Absolute Error (MAE):</h3>
     <p>This metric is straightforward to interpret as it indicates the average amount, in dollars, that the predictions deviated from the actual values. For the Random Forest model, the MAE was 1067.21, meaning that, on average, the model’s predictions were off by about $1067. The XGBoost model achieved a lower MAE of 397.08, indicating more accurate predictions.</p>
-    <img src="mae.png" alt="MAE">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/1afaa4f9-a861-486a-b690-557a869da5b3" alt="MAE">
     <h3>3. Root Mean Squared Error (RMSE):</h3>
     <p>RMSE is a measure of the differences between predicted values by a model and the actual values. For the Random Forest model, the RMSE was 2220.44, and for the XGBoost model, it was 563.94. These values give an indication of the model’s accuracy, with lower values representing better performance.</p>
-    <img src="rmse.png" alt="RMSE">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/61bac199-9814-4d28-b49b-25c5b5924917" alt="RMSE">
     <h3>4. Cross-Validation (CV) Score:</h3>
     <p>The cross-validation score helps to evaluate the model’s performance across different subsets of the data. For the Random Forest model, the CV accuracy score was approximately 0.9561. This consistency across multiple folds indicates that the model generalizes well to unseen data. The XGBoost model also showed strong performance with a mean CV score of 0.95 on the training set.</p>
-    <img src="cv_score.png" alt="CV Score">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/859f3d0d-63b5-45a9-8723-b3f091fd350a" alt="CV Score">
     <h3>Summary of Results:</h3>
     <p>Random Forest:</p>
     <ul>
@@ -461,25 +459,26 @@ The final model will be deployed to a web app or API for end-users to use.
     <h2>Visualizations</h2>
     <p>To better understand the used car market and the factors influencing prices, we conducted extensive data exploration and visualization. The following visualizations highlight key patterns, distributions, and correlations that guided our model development and feature engineering. While there are many more visualizations in the analysis, these selected examples underscore important findings:</p>
     <h3>1. Histogram of Selling Price:</h3>
-    <img src="histogram_selling_price.png" alt="Histogram of Selling Price">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/a283dc70-1db6-48d6-8c8d-fbe9390c05e4" alt="Histogram of Selling Price">
     <h3>2. Histogram of Log of Selling Price:</h3>
-    <img src="histogram_log_selling_price.png" alt="Histogram of Log of Selling Price">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/78124993-5a04-47ac-a9c8-a9421a73db10" alt="Histogram of Log of Selling Price">
     <h3>3. Heatmap of Correlations Among Numeric Features:</h3>
-    <img src="heatmap_correlations.png" alt="Heatmap of Correlations">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/7afba623-4a62-4260-8bf5-f2d85c197abb" alt="Heatmap of Correlations">
     <h3>4. Pair Plot of Features:</h3>
-    <img src="pair_plot_features.png" alt="Pair Plot of Features">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/57942578-faef-4026-b341-6523be447bbf" alt="Pair Plot of Features">
     <h3>5. Bar Plot of Selling Price by Vehicle Year:</h3>
-    <img src="bar_plot_vehicle_year.png" alt="Bar Plot of Vehicle Year">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/d1724690-d8c3-47a4-aa95-4e30c9d0444f" alt="Bar Plot of Vehicle Year">
     <h3>6. Pie Chart of Top 10 Car Brands Sold:</h3>
-    <img src="pie_chart_car_brands.png" alt="Pie Chart of Car Brands">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/00b00cd0-3808-4983-8908-f9f424d0ed5a" alt="Pie Chart of Car Brands">
     <h3>7. Bar Plot of Kms Driven by Fuel Type:</h3>
-    <img src="bar_plot_kms_fuel_type.png" alt="Bar Plot of Kms by Fuel Type">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/8f59bdbf-b1d6-4d0f-8a61-fb687d085a13" alt="Bar Plot of Kms by Fuel Type">
     <h3>8. Scatter Plot of Relationship Between Torque Power and Selling Price:</h3>
-    <img src="scatter_plot_torque_power.png" alt="Scatter Plot of Torque and Selling Price">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/73479e3c-a58d-4bb5-80e6-3989d76c0465"
+ alt="Scatter Plot of Torque and Selling Price">
     <h3>9. Distribution of Selling Prices by Fuel Type:</h3>
-    <img src="distribution_selling_prices_fuel_type.png" alt="Distribution of Selling Prices by Fuel Type">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/88fc72dc-5d7a-476b-a36b-8e6cdc3f7b8f" alt="Distribution of Selling Prices by Fuel Type">
     <h3>10. Car Brand Popularity:</h3>
-    <img src="car_brand_popularity.png" alt="Car Brand Popularity">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/48ba2c53-4425-4127-b15a-329198c84aef" alt="Car Brand Popularity">
     <h2>User Guide</h2>
     <h2>User Guide for Predicting Used Car Prices</h2>
     <p>Welcome to the User Guide for the Used Car Price Prediction project! This guide will walk you through the steps to load the provided Jupyter Notebook (<code>Capstone Project_Used Car Price Prediction_May Cooper</code>) and the associated CSV file (<code>Car_details_v3.csv</code>) into Jupyter Notebooks and run the project.</p>
