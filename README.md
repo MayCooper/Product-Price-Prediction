@@ -23,4 +23,6 @@ The goal is to create a model that can accurately predict the sale price of used
 
 The final model will be deployed to a web app or API for end-users to use.
 
-<h1>This project was a capstone and below are in-depth explanations for the project as well as a example proposal to a made-up company to impliment it in their company</h1>
+<h3>This project was a capstone and below are in-depth explanations for the project as well as a example proposal to a made-up company to impliment it in their company</h3>
+--------------------------------------------
+
