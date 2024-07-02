@@ -30,7 +30,7 @@ The final model will be deployed to a web app or API for end-users to use.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proposal for Implementing a Predictive Application for Used Car Prices</title>
+    <h1>Proposal for Implementing a Predictive Application for Used Car Prices</h1>
 </head>
 <body>
     <h1>Part A: Letter of Transmittal</h1>
