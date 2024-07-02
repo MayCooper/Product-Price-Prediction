@@ -405,22 +405,25 @@ The final model will be deployed to a web app or API for end-users to use.
     <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/0e9e5d93-998e-486c-9981-db6e555d4573" alt="Code Implementation 1">
     <h3>Data Exploration and Cleaning</h3>
     <p>The target variable, selling_price, was analyzed using histograms. A logarithmic transformation was applied to scale the target variable. The dataset was then checked for null values and outliers, which were handled accordingly.</p>
-    <img src="code_implementation2.png" alt="Code Implementation 2">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/c82cc481-f609-4350-a73b-f1ca39e52c89" alt="Code Implementation 2">
     <h3>Feature Engineering</h3>
     <p>Feature engineering involved converting relevant columns to appropriate data types and handling inconsistent formats, especially in the torque column. Missing values were imputed using the median.</p>
-    <img src="code_implementation3.png" alt="Code Implementation 3">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/514d7faa-d039-470c-b327-57bf4870fce5" alt="Code Implementation 3">
     <h3>Data Normalization and Splitting</h3>
     <p>The data was normalized using the StandardScaler, and then split into training and test sets.</p>
-    <img src="code_implementation4.png" alt="Code Implementation 4">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/c9e6bcb1-a3ce-495d-a356-86c672048407"
+ alt="Code Implementation 4">
     <h3>Model Training and Evaluation</h3>
     <p>Multiple regression models, including Random Forest, Linear Regression, SVR, Decision Tree, XGBoost, and Gradient Boosting, were trained and evaluated. The Random Forest Regressor showed the best performance.</p>
-    <img src="code_implementation5.png" alt="Code Implementation 5">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/0c3c2002-0822-4dbb-883d-1add2634a671" alt="Code Implementation 5">
     <h3>Hyperparameter Tuning</h3>
     <p>Hyperparameter tuning was performed for the best-performing models, Random Forest and XGBoost, to further optimize their performance.</p>
-    <img src="code_implementation6.png" alt="Code Implementation 6">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/df915694-9811-44ae-ab52-388ef4fbd088" alt="Code Implementation 6">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/4b56754d-5ec0-4bb9-9696-86df621cdbaf" alt="Code">
+
     <h3>Results</h3>
     <p>The Random Forest Regressor was identified as the best model with high accuracy, and its performance metrics were recorded.</p>
-    <img src="code_implementation7.png" alt="Code Implementation 7">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/ed6f6cf6-9545-42f1-bee8-7f5ac52347ef" alt="Code Implementation 7">
     <p>Through this comprehensive approach, a robust machine learning model was developed to accurately predict used car prices, enhancing market transparency and consumer trust.</p>
     <h2>Validation</h2>
     <p>Three methods were used to assess the accuracy of the model:</p>
