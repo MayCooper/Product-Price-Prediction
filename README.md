@@ -402,8 +402,7 @@ The final model will be deployed to a web app or API for end-users to use.
     <h3>Overview of Code Implementation for Predicting Used Car Prices</h3>
     <h3>Data Collection and Initial Processing</h3>
     <p>The project began by importing the required libraries for Exploratory Data Analysis (EDA) and data preparation, including pandas, numpy, matplotlib, seaborn, and scikit-learn. The dataset, sourced from CarDekho, was read into a pandas DataFrame.</p>
-    <img src=![image](https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/0e9e5d93-998e-486c-9981-db6e555d4573)
- alt="Code Implementation 1">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/0e9e5d93-998e-486c-9981-db6e555d4573" alt="Code Implementation 1">
     <h3>Data Exploration and Cleaning</h3>
     <p>The target variable, selling_price, was analyzed using histograms. A logarithmic transformation was applied to scale the target variable. The dataset was then checked for null values and outliers, which were handled accordingly.</p>
     <img src="code_implementation2.png" alt="Code Implementation 2">
