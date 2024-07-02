@@ -374,7 +374,7 @@ The final model will be deployed to a web app or API for end-users to use.
     <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/6fa05ee8-3c22-4f51-a66c-1ec7f16905da" alt="Data Filtering">
     <h3>Data Cleaning:</h3>
     <p>Missing values were handled through imputation or removal, and outliers were detected and removed to avoid skewing the model’s performance. For instance, records with exceptionally high prices or extreme mileage were analyzed and excluded if necessary. Outlier removal example:</p>
-    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/f280c0e5-74fe-4475-95f0-5a9556c0c8f7" alt="Data Cleaning">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/f280c0e5-74fe-4475-95f0-5a9556c0c8f7" alt="Data Cleaning"> <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/b8d58017-160b-4764-9c24-43a81e20601d" alt="Data Cleaning">
     <p>After imputation, no nulls were present in the dataset:</p>
     <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/752ded62-b493-4082-b86e-0ea446324fc5" alt="Data Imputation">
     <p>Through comprehensive preprocessing, the dataset was prepared for machine learning by splitting it into training and test sets. The dataset was divided into features (X) and target (y) variables. The features encompassed various factors such as kilometers driven, engine capacity, fuel type, and transmission type, while the target variable was the car’s sale price. The training set was utilized to train the machine learning model, and the test set was employed to assess the model’s performance.</p>
