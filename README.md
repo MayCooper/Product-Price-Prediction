@@ -383,12 +383,12 @@ The final model will be deployed to a web app or API for end-users to use.
     <p>As a good illustrative and complex example, the torque column represented significant challenges due to its inconsistent format and various units of measurement. The raw data included torque values expressed in different units and formats, making direct comparisons impossible. For example, some values were given in Newton meters (Nm), while others were in kilogram meters (kgm).</p>
     <p>Additionally, the values included different ranges and annotations, such as RPM (revolutions per minute), which further complicated the data, making it difficult to compare numbers directly. Without addressing these inconsistencies, the machine learning model’s ability to make accurate predictions would be impeded. A quick Google search confirmed that the torque column was a significant factor and could not be ignored, emphasizing the importance of its inclusion and proper standardization.</p>
     <p>Here are some examples from the torque column to illustrate its inconsistencies:</p>
-    <img src="torque_values.png" alt="Torque Values">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/00f867be-e610-4b13-8adb-612372cd30b4" alt="Torque Values">
     <p>The data had to be converted into the same format to be able to conduct true comparisons. First, the torque types were broken into categories:</p>
-    <img src="torque_categories.png" alt="Torque Categories">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/f83ce071-ed2a-4ff5-a710-eab99547f096" alt="Torque Categories">
     <p>To further illustrate the normalization process for this column, torque values were categorized by units (e.g., Nm, kgm), then converted to Newton meters (Nm) using conversion factors like 1 kgm = 9.8 Nm. After normalization to ensure consistency, the standardized torque values replaced the original entries in the dataset.</p>
     <p>Following a series of complex data processing operations as described shortly above, the inconsistent torque values were standardized and integrated into the newly designated updated_torque column:</p>
-    <img src="torque_normalization.png" alt="Torque Normalization">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/ec6cd1bf-b4fc-4ff6-9f8d-960dd3e5f907" alt="Torque Normalization"> <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/caa9928d-e687-4cd4-8781-1adee8ed2858" alt="Torque Normalization">
     <h3>Data Management:</h3>
     <p>Data management involves regularly updating the dataset to incorporate new records and reflect the latest market trends.</p>
     <h2>Machine Learning:</h2>
