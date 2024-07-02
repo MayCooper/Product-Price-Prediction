@@ -365,18 +365,18 @@ The final model will be deployed to a web app or API for end-users to use.
     <h2>Data Summary:</h2>
     <p>The dataset utilized in this project was obtained from CarDekho, a prominent car search platform in India that helps users find the perfect vehicles for their needs. It included comprehensive records of used car sales in India, detailing variables such as car model, year of manufacture, selling price, kilometers driven, fuel type, transmission type, owner history, mileage, engine capacity, maximum power, torque, and number of seats.</p>
     <p>A view of the data in an organized format in Jupyter Notebooks:</p>
-    <img src="data_view1.png" alt="Data View 1">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/1d719f04-fa0c-4d88-9d50-67b16fca5259" alt="Data View 1">
     <p>This is the view of the scraped data in CSV:</p>
-    <img src="data_view2.png" alt="Data View 2">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/a4e9f3e7-17b2-4df5-a94f-aab5357e88b2" alt="Data View 2">
     <h2>Data Processing:</h2>
     <h3>Data Collection and Initial Processing:</h3>
     <p>The data was initially filtered to focus on relevant records, removing those with incomplete data or non-standard features. This step ensured that the dataset was manageable and relevant for the machine learning model. For example, records missing key details such as the car model, year, or selling price were excluded to maintain data quality and integrity.</p>
-    <img src="data_filtering.png" alt="Data Filtering">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/6fa05ee8-3c22-4f51-a66c-1ec7f16905da" alt="Data Filtering">
     <h3>Data Cleaning:</h3>
     <p>Missing values were handled through imputation or removal, and outliers were detected and removed to avoid skewing the model’s performance. For instance, records with exceptionally high prices or extreme mileage were analyzed and excluded if necessary. Outlier removal example:</p>
-    <img src="data_cleaning.png" alt="Data Cleaning">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/f280c0e5-74fe-4475-95f0-5a9556c0c8f7" alt="Data Cleaning">
     <p>After imputation, no nulls were present in the dataset:</p>
-    <img src="data_imputation.png" alt="Data Imputation">
+    <img src="https://github.com/MayCooper/Product-Price-Prediction/assets/82129870/752ded62-b493-4082-b86e-0ea446324fc5" alt="Data Imputation">
     <p>Through comprehensive preprocessing, the dataset was prepared for machine learning by splitting it into training and test sets. The dataset was divided into features (X) and target (y) variables. The features encompassed various factors such as kilometers driven, engine capacity, fuel type, and transmission type, while the target variable was the car’s sale price. The training set was utilized to train the machine learning model, and the test set was employed to assess the model’s performance.</p>
     <h3>Normalization and Feature Engineering:</h3>
     <p>Continuous variables such as kilometers driven and engine capacity were normalized. Feature engineering was conducted to create new features from existing ones, such as calculating the car’s age from its manufacturing year.</p>
